@@ -26,3 +26,4 @@ response = httpx.get("https://postman-echo.com/get", headers=headers)
 
 print(response.request.headers)
 print(response.json())
+
